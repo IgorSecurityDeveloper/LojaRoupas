@@ -18,18 +18,29 @@ img {
     height: 250px;
 }
 
-nav {
+menu {
+    padding: 0;
     margin: 0;
     height: 100%;
     width: 100%;
     background-color: #000000dc;
+    display: inline-block;
 }
+
+.menuoption li ul {
+    display: none;
+}
+
+.menuoption li:hover ul, .menu li.over ul {
+    display: block;
+} 
 
 a {
     text-decoration: none;
     font-size: 20px;
+    font-family: consolas, italic;
     color: rgb(110, 110, 110);
-    padding-left: 50px;
+    margin: 80px;
     text-align: center;
     transition: 0.5s;
 }
@@ -37,17 +48,18 @@ a {
 a:hover {
     color: #fff;
     background-color: #11e7fa;
-    box-shadow: 5px 10px 25px 50px #11e7fa;
+    box-shadow: 1px 1px 10px 15px #11e7fa;
     transition: 0.1s;
-    border-radius: 35%;
+    border-radius: 10%;
 }
+
+
 
 .divisor {
     transform: rotate(90deg);
     width: 30px;
     height: 2px;
     display: inline-block;
-    margin-left: 58px;
 }
 
 ul {
@@ -57,4 +69,13 @@ ul {
 li {
     text-decoration: none;
     text-align: center;
+    list-style-type: none;
+}
+
+
+footer {
+    margin-top: 520px; /* Tag temporária para auxiliar na visualização da página separação*/
+    height: 250px;
+    width: 100%;
+    background: #000000dc;
 }
