@@ -53,8 +53,6 @@ a:hover {
     border-radius: 10%;
 }
 
-
-
 .divisor {
     transform: rotate(90deg);
     width: 30px;
@@ -71,7 +69,6 @@ li {
     text-align: center;
     list-style-type: none;
 }
-
 
 footer {
     margin-top: 520px; /* Tag temporária para auxiliar na visualização da página separação*/
