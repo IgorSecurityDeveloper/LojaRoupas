@@ -71,4 +71,9 @@ const itens = [
         img: media/camisa.png,
         quantidade: 0,
     },
+
+    inicializarloja = () => {
+        var conteinerProdutos = product.getElementById('itens')
+        
+    }
 ]
